@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
   root 'static#index'
-
   namespace :api do
     get 'ping' => 'sandbox#ping'
     get 'notfound' => 'sandbox#notfound'
